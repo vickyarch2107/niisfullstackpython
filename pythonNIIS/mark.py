@@ -1,0 +1,14 @@
+m1=float(input("Enter mark1:\n"))
+m2=float(input("Enter mark2:\n"))
+m3=float(input("Enter mark3:\n"))
+m4=float(input("Enter mark4:\n"))
+m5=float(input("Enter mark5:\n"))
+print("Mark1=", m1)
+print("Mark2=", m2)
+print("Mark3=", m3)
+print("Mark4=", m4)
+print("Mark5=", m5)
+Total=m1+m2+m3+m4+m5
+avg=Total/5
+print("Total=",Total)
+print("avg=",avg)
