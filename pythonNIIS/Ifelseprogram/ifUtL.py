@@ -1,0 +1,9 @@
+import sys
+print("Enter a character")
+ch=input()
+if len(ch)>1:
+	print("One char allow")
+	sys.exit()
+if ch>='A' and ch<='Z':
+	ch=chr(ord(ch)+32)
+	print(ch)
