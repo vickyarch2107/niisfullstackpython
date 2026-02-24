@@ -1,3 +1,10 @@
+"""WAP take emp salary from keyboard if sal>=5000 da=30%, hra=20% then
+display basicsalary da hra and total salary."""
+
+
+
+
+
 print("Enter basic salary")
 sal=float(input())
 da,hra=0,0
